@@ -76,4 +76,9 @@ const ContactForm = ({ addTodo, contacts }) => {
   );
 };
 
+ContactForm.propTypes={
+  addTodo: PropTypes.func.isRequired,
+  contacts:PropTypes.array.isRequired,
+}
+
 export default ContactForm;
